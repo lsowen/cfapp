@@ -1,5 +1,6 @@
 {
     "name": "Test App",
     "category": "support",
-    "description": "a description of the application"
+    "description": "a description of the application",
+    "version": "0.1"
 }
