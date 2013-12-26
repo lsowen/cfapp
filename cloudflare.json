@@ -2,5 +2,13 @@
     "name": "Test App",
     "category": "support",
     "description": "a description of the application",
-    "version": "0.1"
+    "version": "0.1",
+    "config": {
+	"details": {
+	    "Language": "English",
+	    "Price": "Free",
+	    "Restrictions": "None",
+	    "has_js": false
+	}
+    }
 }
