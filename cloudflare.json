@@ -1,4 +1,5 @@
 {
     "name": "Test App",
-    "category": "support"
+    "category": "support",
+    "description": "a description of the application"
 }
