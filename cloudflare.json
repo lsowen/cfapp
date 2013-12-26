@@ -1,14 +1,34 @@
 {
     "name": "Test App",
     "category": "support",
-    "description": "a description of the application",
-    "version": "0.1",
+    "description": "Wait for description from Neran",
+    "version": "0.2",
+    "account": {
+	"callback_url": "http://cloudflare-app.s1network.com/api",
+	"user_fields": ["email"]
+    },
     "config": {
 	"details": {
 	    "Language": "English",
 	    "Price": "Free",
 	    "Restrictions": "None",
 	    "has_js": false
-	}
+	},
+	"assets": {
+	    "logos": {
+		"132px": "./public/images/logo-132.png",
+		"200px": "./public/images/logo-200.png",
+		},
+	    "detail_page": []
+	},
+	"interface": [
+	    {
+		"id": "identifier",
+		"type": "text",
+		"name": "Account Identifier",
+		"description": "Identifier for your account",
+		"domain_request": true
+	    }
+	]
     }
 }
