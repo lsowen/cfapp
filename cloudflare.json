@@ -2,7 +2,8 @@
     "name": "HelpOnClick (Test App)",
     "category": "support",
     "description": "Wait for description from Neran",
-    "version": "0.10",
+    "version": "0.11",
+    "main": "public/js/main.js",
     "account": {
 	"callback_url": "http://cloudflare-app.s1network.com/api",
 	"user_fields": ["email"]
